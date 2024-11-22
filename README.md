@@ -3,14 +3,14 @@
 #### **Project Overview**
 This project involves analyzing booking data from OLA rides in Mumbai over a period of one month. The analysis covers metrics such as booking statuses, ride distances, cancellation reasons, payment methods, customer and driver ratings, and revenue generation. Insights are visualized using **Power BI** and queried through **SQL**.
 
---
+---
 
 #### **Project Objectives**
 1. Perform detailed data analysis to uncover trends in booking statuses, ride volumes, cancellations, and revenue generation.
 2. Create visualizations for business insights, including ride volume trends, revenue breakdown, and customer behavior.
 3. Use SQL to extract specific insights for further analysis and reporting.
 
---
+---
 
 #### **Dataset Description**
 The dataset comprises 100,000 records with the following key columns:
