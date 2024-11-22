@@ -66,6 +66,71 @@ The dataset comprises 100,000 records with the following key columns:
 3. **Power BI Dashboard**:
    - Recreate the dashboard using given visuals and measures.
 
+
+#### **Dataset Description**
+The dataset contains the following key columns:
+- **Booking_Status**: Status of each booking (e.g., Success, Cancelled).
+- **Vehicle_Type**: Type of vehicle (e.g., Prime Sedan, Mini).
+- **Ride_Distance**: Distance covered in each ride.
+- **Customer_ID**: Unique identifier for customers.
+- **Booking_ID**: Unique identifier for bookings.
+- **Driver_Ratings**: Ratings provided by customers for drivers.
+- **Cancelled_Rides_by_Driver**: Reasons for cancellation by drivers.
+
+---
+
+#### **SQL Query List**
+
+1. **Retrieve All Successful Bookings**  
+   **Query**:  
+   ```sql
+   SELECT * FROM bookings WHERE Booking_Status = 'Success';
+   ```  
+   **Description**: This query retrieves all records where the booking status is marked as "Success."  
+   **Use Case**: Analyze completed rides for revenue generation and customer satisfaction metrics.
+
+2. **Find the Average Ride Distance for Each Vehicle Type**  
+   **Query**:  
+   ```sql
+   SELECT Vehicle_Type, AVG(Ride_Distance) as avg_distance FROM bookings GROUP BY Vehicle_Type;
+   ```  
+   **Description**: Calculates the average distance covered by each type of vehicle.  
+   **Use Case**: Identify vehicle types suitable for long-distance trips.
+
+3. **Get the Total Number of Cancelled Rides by Customers**  
+   **Query**:  
+   ```sql
+   SELECT COUNT(*) FROM bookings WHERE Booking_Status = 'cancelled by Customer';
+   ```  
+   **Description**: Counts the total number of bookings cancelled by customers.  
+   **Use Case**: Understand cancellation patterns to improve customer experience.
+
+4. **List the Top 5 Customers Who Booked the Highest Number of Rides**  
+   **Query**:  
+   ```sql
+   SELECT Customer_ID, COUNT(Booking_ID) as total_rides FROM bookings GROUP BY Customer_ID ORDER BY total_rides DESC LIMIT 5;
+   ```  
+   **Description**: Retrieves the top 5 customers based on the number of rides booked.  
+   **Use Case**: Reward loyal customers and create targeted marketing strategies.
+
+5. **Get the Number of Rides Cancelled by Drivers Due to Personal and Car-Related Issues**  
+   **Query**:  
+   ```sql
+   SELECT COUNT(*) FROM bookings WHERE cancelled_Rides_by_Driver = 'Personal & Car related issue';
+   ```  
+   **Description**: Counts rides cancelled by drivers citing personal or car-related issues.  
+   **Use Case**: Address operational inefficiencies and driver-related challenges.
+
+6. **Find the Maximum and Minimum Driver Ratings for Prime Sedan Bookings**  
+   **Query**:  
+   ```sql
+   SELECT MAX(Driver_Ratings) as max_rating, MIN(Driver_Ratings) as min_rating FROM bookings WHERE Vehicle_Type = 'Prime Sedan';
+   ```  
+   **Description**: Identifies the range of driver ratings for Prime Sedan rides.  
+   **Use Case**: Monitor driver performance and maintain quality standards.
+
+
+
 #### **Files**
 - **SQL Scripts**: Queries for analysis and reporting.
 - **Power BI Dashboard**: Includes visuals for detailed insights.
