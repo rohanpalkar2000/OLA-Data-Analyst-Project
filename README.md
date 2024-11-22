@@ -30,6 +30,7 @@ The dataset comprises 100,000 records with the following key columns:
 9. **Revenue Metrics**:
    - Booking Value and Cancellation Rates.
 
+---
 
 #### **Analysis Performed**
 1. **SQL Analysis**:
@@ -47,6 +48,7 @@ The dataset comprises 100,000 records with the following key columns:
    - Analyze revenue by payment methods.
    - Ride distance distribution across days.
 
+---
 
 #### **Key Insights**
 - **Booking Status Breakdown**: 
@@ -60,6 +62,7 @@ The dataset comprises 100,000 records with the following key columns:
 - **Cancellations**:
   - Major reasons include changes in plans (customers) and personal issues (drivers).
 
+---
 
 #### **Steps to Replicate**
 1. **Data Preparation**:
@@ -72,6 +75,7 @@ The dataset comprises 100,000 records with the following key columns:
 3. **Power BI Dashboard**:
    - Recreate the dashboard using given visuals and measures.
 
+---
 
 #### **Dataset Description**
 The dataset contains the following key columns:
@@ -135,7 +139,7 @@ The dataset contains the following key columns:
    **Description**: Identifies the range of driver ratings for Prime Sedan rides.  
    **Use Case**: Monitor driver performance and maintain quality standards.
 
-
+---
 
 #### **Files**
 - **SQL Scripts**: Queries for analysis and reporting.
