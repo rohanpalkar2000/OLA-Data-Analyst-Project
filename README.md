@@ -28,6 +28,7 @@ The dataset comprises 100,000 records with the following key columns:
 9. **Revenue Metrics**:
    - Booking Value and Cancellation Rates.
 
+
 #### **Analysis Performed**
 1. **SQL Analysis**:
    - Retrieve successful bookings.
@@ -36,12 +37,14 @@ The dataset comprises 100,000 records with the following key columns:
    - Summarize cancellation reasons for drivers and customers.
    - Calculate total booking value of successful rides.
 
+
 2. **Power BI Analysis**:
    - Visualize booking status breakdown.
    - Identify top 5 vehicle types by ride distance.
    - Evaluate customer and driver ratings.
    - Analyze revenue by payment methods.
    - Ride distance distribution across days.
+
 
 #### **Key Insights**
 - **Booking Status Breakdown**: 
@@ -54,6 +57,7 @@ The dataset comprises 100,000 records with the following key columns:
   - Identified top 5 contributors to booking value.
 - **Cancellations**:
   - Major reasons include changes in plans (customers) and personal issues (drivers).
+
 
 #### **Steps to Replicate**
 1. **Data Preparation**:
@@ -77,7 +81,7 @@ The dataset contains the following key columns:
 - **Driver_Ratings**: Ratings provided by customers for drivers.
 - **Cancelled_Rides_by_Driver**: Reasons for cancellation by drivers.
 
----
+
 
 #### **SQL Query List**
 
