@@ -148,8 +148,9 @@ The dataset contains the following key columns:
 ---
 
 ## **ScreenShot**
-![Overall](https://github.com/user-attachments/assets/a7612931-615a-4363-aa79-164ccd33f965)
-![Vehicle Type](https://github.com/user-attachments/assets/35580d10-649d-4492-8eca-5eaf7f29f100)
-![Revenue](https://github.com/user-attachments/assets/b3ba5f2f-4f9d-4f61-8c8f-341f31c59243)
-![Cancellation](https://github.com/user-attachments/assets/0d188012-1919-4372-a6fe-fea891e9d777)
-![Ratings](https://github.com/user-attachments/assets/fb746328-ca3f-4d9b-93ae-2fb4163372c2)
+![Overall](https://github.com/user-attachments/assets/90e66bcc-27c1-4a90-bbba-0550ab9ff32f)
+![Vehicle Type](https://github.com/user-attachments/assets/afb729d2-4d77-4ed9-b3f1-e3442b1f3cb7)
+![Revenue](https://github.com/user-attachments/assets/b2352ed3-5451-4dc2-a2ef-52541cfa0ca9)
+![Cancellation](https://github.com/user-attachments/assets/b47e129a-41f6-4f8c-aa56-09da855442a3)
+![Ratings](https://github.com/user-attachments/assets/66c6f42d-8898-4e9e-bb9f-3f64b79c5a50)
+
