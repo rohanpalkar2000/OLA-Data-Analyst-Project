@@ -1,18 +1,18 @@
 # OLA-Data-Analyst-Project
 
-#### **Project Overview**
+### **Project Overview**
 This project involves analyzing booking data from OLA rides in Mumbai over a period of one month. The analysis covers metrics such as booking statuses, ride distances, cancellation reasons, payment methods, customer and driver ratings, and revenue generation. Insights are visualized using **Power BI** and queried through **SQL**.
 
 ---
 
-#### **Project Objectives**
+### **Project Objectives**
 1. Perform detailed data analysis to uncover trends in booking statuses, ride volumes, cancellations, and revenue generation.
 2. Create visualizations for business insights, including ride volume trends, revenue breakdown, and customer behavior.
 3. Use SQL to extract specific insights for further analysis and reporting.
 
 ---
 
-#### **Dataset Description**
+### **Dataset Description**
 The dataset comprises 100,000 records with the following key columns:
 1. **Date** and **Time** of booking.
 2. **Booking ID**, **Booking Status**, and **Customer ID**.
@@ -32,7 +32,7 @@ The dataset comprises 100,000 records with the following key columns:
 
 ---
 
-#### **Analysis Performed**
+### **Analysis Performed**
 1. **SQL Analysis**:
    - Retrieve successful bookings.
    - Analyze average ride distance per vehicle type.
@@ -50,7 +50,7 @@ The dataset comprises 100,000 records with the following key columns:
 
 ---
 
-#### **Key Insights**
+### **Key Insights**
 - **Booking Status Breakdown**: 
   - 61.9% success rate, with a 24.94% cancellation rate.
 - **Revenue Analysis**: 
@@ -64,7 +64,7 @@ The dataset comprises 100,000 records with the following key columns:
 
 ---
 
-#### **Steps to Replicate**
+### **Steps to Replicate**
 1. **Data Preparation**:
    - Use the structured dataset to create a relational database.
    - Upload data to Power BI for visualization.
@@ -77,7 +77,7 @@ The dataset comprises 100,000 records with the following key columns:
 
 ---
 
-#### **Dataset Description**
+### **Dataset Description**
 The dataset contains the following key columns:
 - **Booking_Status**: Status of each booking (e.g., Success, Cancelled).
 - **Vehicle_Type**: Type of vehicle (e.g., Prime Sedan, Mini).
@@ -89,7 +89,7 @@ The dataset contains the following key columns:
 
 
 
-#### **SQL Query List**
+### **SQL Query List**
 
 1. **Retrieve All Successful Bookings**  
    **Query**:  
@@ -141,7 +141,7 @@ The dataset contains the following key columns:
 
 ---
 
-#### **Files**
+### **Files**
 - **SQL Scripts**: Queries for analysis and reporting.
 - **Power BI Dashboard**: Includes visuals for detailed insights.
 
