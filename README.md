@@ -145,6 +145,7 @@ The dataset contains the following key columns:
 - **SQL Scripts**: Queries for analysis and reporting.
 - **Power BI Dashboard**: Includes visuals for detailed insights.
 
+---
 
 ## **ScreenShot**
 ![Overall](https://github.com/user-attachments/assets/a7612931-615a-4363-aa79-164ccd33f965)
